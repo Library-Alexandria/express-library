@@ -285,4 +285,292 @@
     text: "https://www.gutenberg.org/files/35171/35171-h/35171-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
+},
+{
+    title: "The Aeneid of Virgil",
+    author: "Virgil",
+    subjects: "Aeneas (Legendary character) -- Poetry, Epic poetry, Latin -- Translations into English",
+    image: "https://www.gutenberg.org/cache/epub/22456/pg22456.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/22456/22456-h/22456-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Phaedrus",
+    author: "Plato",
+    subjects: "Classical literature, Love -- Early works to 1800, Lysias, Rhetoric -- Early works to 1800, Rhetoric, Ancient, Socrates, 470 BC-399 BC, Soul -- Early works to 1800",
+    image: "https://www.gutenberg.org/cache/epub/1636/pg1636.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/1636/1636-h/1636-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Iliad",
+    author: "Homer",
+    subjects: "Achilles (Mythological character) -- Poetry, Classical literature, Epic poetry, Greek -- Translations into English, Trojan War -- Poetry",
+    image: "https://www.gutenberg.org/cache/epub/6150/pg6150.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/6150/6150-h/6150-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Analects of Confucius (from the Chinese Classics)",
+    author: "Confucius",
+    subjects: "Ethics -- China, Philosophy, Chinese",
+    image: "https://www.gutenberg.org/cache/epub/3330/pg3330.cover.medium.jpg",
+    text: "https://www.gutenberg.org/ebooks/3330.html.images",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "De Bello Gallico and Other Commentaries",
+    author: "Caesar, Julius",
+    subjects: "Gaul -- History -- Gallic Wars, 58-51 B.C., Rome -- History -- Civil War, 49-48 B.C.",
+    image: "https://www.gutenberg.org/cache/epub/10657/pg10657.cover.small.jpg",
+    text: "https://www.gutenberg.org/ebooks/10657.html.images",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Meno",
+    author: "Plato",
+    subjects: "Classical literature, Ethics -- Early works to 1800, Socrates, 470 BC-399 BC, Virtue -- Early works to 1800",
+    image: "https://www.gutenberg.org/cache/epub/1643/pg1643.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/1643/1643-h/1643-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Ion",
+    author: "Plato",
+    subjects: "Aesthetics, Ancient, Classical literature, Homer. Iliad, Poetics -- History -- To 1500",
+    image: "https://www.gutenberg.org/cache/epub/1635/pg1635.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/1635/1635-h/1635-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Iliad of Homer (1873)",
+    author: "Homer",
+    subjects: "Achilles (Mythological character), Epic poetry, Greek -- Translations into English, Trojan War",
+    image: "https://www.gutenberg.org/cache/epub/22382/pg22382.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/22382/22382-h/22382-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Alcibiades I",
+    author: "Plato (spurious and doubtful works)",
+    subjects: "Alcibiades, Classical literature, Socrates, 470 BC-399 BC, Virtue -- Early works to 1800",
+    image: "https://www.gutenberg.org/cache/epub/1676/pg1676.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/1676/1676-h/1676-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "An Account of Egypt",
+    author: "Herodotus",
+    subjects: "Egypt -- History -- To 332 B.C.",
+    image: "https://www.gutenberg.org/cache/epub/2131/pg2131.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/2131/2131-h/2131-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Works of Horace",
+    author: "Horace",
+    subjects: "Horace -- Translations into English, Latin poetry -- Translations into English",
+    image: "https://www.gutenberg.org/cache/epub/14020/pg14020.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/14020/14020-h/14020-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The republic of Cicero: Translated from the Latin; and Accompanied With a Critical and Historical Introduction.",
+    author: "Cicero, Marcus Tullius",
+    subjects: "Political science -- Early works to 1800, State, The -- Early works to 1800",
+    image: "https://www.gutenberg.org/cache/epub/54161/pg54161.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/54161/54161-h/54161-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Amphitryo, Asinaria, Aulularia, Bacchides, Captivi: Amphitryon, The Comedy of Asses, The Pot of Gold, The Two; Bacchises, The Captives",
+    author: "Plautus, Titus Maccius",
+    subjects: "Latin drama (Comedy), Latin drama (Comedy) -- Translations into English",
+    image: "https://www.gutenberg.org/cache/epub/16564/pg16564.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/16564/16564-h/16564-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Aristotle on the art of poetry",
+    author: "Aristotle",
+    subjects: "Aesthetics -- Early works to 1800, Music -- Philosophy and aesthetics, Poetry -- Early works to 1800",
+    image: "https://www.gutenberg.org/cache/epub/6763/pg6763.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/6763/6763-h/6763-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Treatises on Friendship and Old Age",
+    author: "Cicero, Marcus Tullius",
+    subjects: "Friendship, Old age",
+    image: "https://www.gutenberg.org/cache/epub/2808/pg2808.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/2808/2808-h/2808-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Crito",
+    author: "Plato",
+    subjects: "Classical literature, Dialogues, Greek -- Translations into English, Justice -- Early works to 1800, Philosophy, Ancient",
+    image: "https://www.gutenberg.org/cache/epub/1657/pg1657.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/1657/1657-h/1657-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Economist",
+    author: "Xenophon",
+    subjects: "Administration of estates -- Greece -- Early works to 1800, Classical literature, Dialogues, Greek -- Translations into English, Greece -- Economic conditions -- Early works to 1800",
+    image: "https://www.gutenberg.org/cache/epub/1173/pg1173.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "De Officiis",
+    author: "Cicero, Marcus Tullius",
+    subjects: "Ethics -- Early works to 1800",
+    image: "https://www.gutenberg.org/cache/epub/47001/pg47001.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/47001/47001-h/47001-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Sophist",
+    author: "Plato",
+    subjects: "Classical literature, Logic, Ancient, Meaning (Philosophy), Methodology, Ontology, Sophists (Greek philosophy)",
+    image: "https://www.gutenberg.org/cache/epub/1735/pg1735.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/1735/1735-h/1735-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The History of Herodotus — Volume 2",
+    author: "Herodotus",
+    subjects: "Greece -- History -- To 146 B.C., History, Ancient",
+    image: "https://www.gutenberg.org/cache/epub/2456/pg2456.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/2456/2456-h/2456-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Hellenica",
+    author: "Xenophon",
+    subjects: "Classical literature, Greece -- History -- Peloponnesian War, 431-404 B.C., Greece -- History -- Spartan and Theban Supremacies, 404-362 B.C.",
+    image: "https://www.gutenberg.org/cache/epub/1174/pg1174.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/1174/1174-h.zip",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Seven Plays in English Verse",
+    author: "Sophocles",
+    subjects: "Mythology, Greek -- Drama, Sophocles -- Translations into English",
+    image: "https://www.gutenberg.org/cache/epub/14484/pg14484.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/14484/14484-h/14484-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Odyssey of Homer",
+    author: "Homer",
+    subjects: "Epic poetry, Greek -- Translations into English, Homer -- Translations into English, Odysseus, King of Ithaca (Mythological character)",
+    image: "https://www.gutenberg.org/cache/epub/1728/pg1728.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/1728/1728-h/1728-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Protagoras",
+    author: "Plato",
+    subjects: "Classical literature, Protagoras, Socrates, 470 BC-399 BC, Sophists (Greek philosophy), Virtue -- Early works to 1800",
+    image: "https://www.gutenberg.org/cache/epub/1591/pg1591.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/1591/1591-h/1591-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Agamemnon of Aeschylus: Translated into English Rhyming Verse with Explanatory Notes",
+    author: "Aeschylus",
+    subjects: "Agamemnon, King of Mycenae (Mythological character) -- Drama",
+    image: "https://www.gutenberg.org/cache/epub/14417/pg14417.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/14417/14417-h/14417-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Menexenus",
+    author: "Plato",
+    subjects: "Classical literature, Rhetoric -- Philosophy, Rhetoric, Ancient",
+    image: "https://www.gutenberg.org/cache/epub/1682/pg1682.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/1682/1682-h/1682-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Memorabilia",
+    author: "Xenophon",
+    subjects: "Classical literature, Philosophers, Ancient -- Biography -- Early works to 1800, Socrates -- Trials, litigation, etc. -- Early works to 1800",
+    image: "https://www.gutenberg.org/cache/epub/1177/pg1177.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Frogs",
+    author: "Aristophanes",
+    subjects: "Aristophanes -- Translations into English, Comedies, Dionysus (Greek deity) -- Drama, Dramatists -- Drama, Greek drama (Comedy) -- Translations into English, Playwriting -- Drama, Voyages to the otherworld -- Drama",
+    image: "https://www.gutenberg.org/cache/epub/7998/pg7998.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/7998/7998-h/7998-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Birds",
+    author: "Aristophanes",
+    subjects: "Aristophanes -- Translations into English, Athens (Greece) -- Social life and customs -- Drama, Birds -- Drama, Comedies, Gods, Greek -- Drama, Greek drama (Comedy) -- Translations into English, Imaginary societies -- Drama",
+    image: "https://www.gutenberg.org/cache/epub/3013/pg3013.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/3013/3013-h.zip",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Polity of the Athenians and the Lacedaemonians",
+    author: "Xenophon",
+    subjects: "Classical literature, Greece -- Politics and government -- Early works to 1800",
+    image: "https://www.gutenberg.org/cache/epub/1178/pg1178.cover.medium.jpg",
+    text: "https://www.gutenberg.org/files/1178/1178-h/1178-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "Cratylus",
+    author: "Plato",
+    subjects: "Classical literature, Language and languages -- Philosophy",
+    image: "https://www.gutenberg.org/cache/epub/1616/pg1616.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/1616/1616-h/1616-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
+{
+    title: "The Letters of Cicero, Volume 1: The Whole Extant Correspodence in Chronological Order",
+    author: "Cicero, Marcus Tullius",
+    subjects: "Authors, Latin -- Correspondence, Cicero, Marcus Tullius -- Correspondence, Statesmen -- Rome -- Correspondence",
+    image: "https://www.gutenberg.org/cache/epub/21200/pg21200.cover.small.jpg",
+    text: "https://www.gutenberg.org/files/21200/21200-h/21200-h.htm",
+    createdAt: new Date(),
+    updatedAt: new Date()
 }]
