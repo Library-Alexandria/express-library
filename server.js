@@ -9,9 +9,9 @@ async function getBooks() {
     const books = await axios.get(url)
     let bookJSON = ''
     for (let i = 0; i < books.data.results.length; i++) {
-        bookJSON += `"${i}": { "title": "${books.data.results[i].title}" },\n`
+        bookJSON += `    "${i}": { "title": "${books.data.results[i].title}" },\n`
     }
-    const allBooks = `{${bookJSON.slice(0, -2)}}`
+    const allBooks = `{\n${bookJSON.slice(0, -2)}\n}`
     fs.writeFile('seeder.json', allBooks, (err) => {
         if (err) {
             console.log(err)
