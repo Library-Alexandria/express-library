@@ -3,7 +3,7 @@
     author: "Plato",
     subjects: "Classical literature, Justice -- Early works to 1800, Political science -- Early works to 1800, Utopias -- Early works to 1800",
     image: "https://www.gutenberg.org/cache/epub/1497/pg1497.cover.medium.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -39,7 +39,7 @@
     author: "Thucydides",
     subjects: "Greece -- History -- Peloponnesian War, 431-404 B.C.",
     image: "https://www.gutenberg.org/cache/epub/7142/pg7142.cover.medium.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/7142/7142-h/7142-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -57,7 +57,7 @@
     author: "Aristotle",
     subjects: "Aesthetics -- Early works to 1800, Poetry -- Early works to 1800",
     image: "https://www.gutenberg.org/cache/epub/1974/pg1974.cover.medium.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/1974/1974-h/1974-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -75,7 +75,7 @@
     author: "Sophocles",
     subjects: "Oedipus (Greek mythological figure) -- Drama, Tragedies",
     image: "https://www.gutenberg.org/cache/epub/27673/pg27673.cover.medium.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/27673/27673-h/27673-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -93,7 +93,7 @@
     author: "Sophocles",
     subjects: "Antigone (Mythological character) -- Drama, Greek drama (Tragedy) -- Translations into English, Oedipus (Greek mythological figure) -- Drama, Tragedies",
     image: "https://www.gutenberg.org/cache/epub/31/pg31.cover.small.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/31/31-h/31-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -102,7 +102,7 @@
     author: "Herodotus",
     subjects: "Greece -- History -- To 146 B.C., History, Ancient",
     image: "https://www.gutenberg.org/cache/epub/2707/pg2707.cover.medium.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/2707/2707-h.zip",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -120,7 +120,7 @@
     author: "Aristophanes",
     subjects: "Aristophanes -- Translations into English, Comedies, Greece -- History -- Peloponnesian War, 431-404 B.C. -- Drama, Greek drama (Comedy) -- Translations into English, Lysistrata (Fictitious character) -- Drama, Peace movements -- Drama, Women and peace -- Drama",
     image: "https://www.gutenberg.org/cache/epub/7700/pg7700.cover.small.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/7700/7700-h/7700-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -147,7 +147,7 @@
     author: "Plato",
     subjects: "Classical literature, Ethics -- Early works to 1800, Political science -- Early works to 1800",
     image: "https://www.gutenberg.org/cache/epub/1672/pg1672.cover.small.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/1672/1672-h/1672-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -165,7 +165,7 @@
     author: "Xenophon",
     subjects: "Classical literature, Cyrus, the Younger, approximately 423 B.C.-401 B.C., Greece -- History -- Expedition of Cyrus, 401 B.C., Iran -- History -- To 640",
     image: "https://www.gutenberg.org/cache/epub/1170/pg1170.cover.small.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/1170/1170-h/1170-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -174,7 +174,7 @@
     author: "Plato",
     subjects: "Classical literature, Love -- Early works to 1800, Philosophy, Ancient, Socrates, 470 BC-399 BC",
     image: "https://www.gutenberg.org/cache/epub/1600/pg1600.cover.medium.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/1600/1600-h/1600-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -183,7 +183,7 @@
     author: "Plato",
     subjects: "Classical literature, Immortality (Philosophy) -- Early works to 1800",
     image: "https://www.gutenberg.org/cache/epub/1658/pg1658.cover.small.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/1658/1658-h/1658-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -192,7 +192,7 @@
     author: "Plato",
     subjects: "Socrates, 470 BC-399 BC",
     image: "https://www.gutenberg.org/cache/epub/13726/pg13726.cover.medium.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/2/9/4/4/29441/29441-h.zip",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -201,7 +201,7 @@
     author: "Cicero, Marcus Tullius",
     subjects: "Gods, Roman -- Early works to 1800, Happiness -- Early works to 1800, Political science -- Early works to 1800, Rome -- Politics and government -- 265-30 B.C., State, The -- Early works to 1800, Theology -- Early works to 1800",
     image: "https://www.gutenberg.org/cache/epub/14988/pg14988.cover.small.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/14988/14988-h/14988-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -210,7 +210,7 @@
     author: "Plato",
     subjects: "Classical literature, Philosophy, Ancient, Piety -- Early works to 1800, Socrates, 470 BC-399 BC",
     image: "https://www.gutenberg.org/cache/epub/1642/pg1642.cover.small.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/1642/1642-h/1642-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -219,7 +219,7 @@
     author: "Aristotle",
     subjects: "Political science -- Early works to 1800",
     image: "https://www.gutenberg.org/cache/epub/6762/pg6762.cover.small.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/6762/6762-h/6762-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -237,7 +237,7 @@
     author: "Xenophon",
     subjects: "Biographical fiction, Cyrus, King of Persia, -529 B.C. -- Fiction, Education of princes -- Fiction",
     image: "https://www.gutenberg.org/cache/epub/2085/pg2085.cover.medium.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/2085/2085-h/2085-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -246,7 +246,7 @@
     author: "Plato",
     subjects: "Political science -- Early works to 1800, State, The -- Early works to 1800",
     image: "https://www.gutenberg.org/cache/epub/1750/pg1750.cover.small.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/1750/1750-h/1750-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -255,7 +255,7 @@
     author: "Lucretius Carus, Titus",
     subjects: "Didactic poetry, Latin -- Translations into English, Philosophy, Ancient -- Poetry",
     image: "https://www.gutenberg.org/cache/epub/785/pg785.cover.small.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/785/785-h/785-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -264,7 +264,7 @@
     author: "Plato",
     subjects: "Classical literature, Cosmology -- Early works to 1800",
     image: "https://www.gutenberg.org/cache/epub/1572/pg1572.cover.medium.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/1572/1572-h/1572-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },
@@ -273,7 +273,7 @@
     author: "Plato",
     subjects: "Classical literature, Knowledge, Theory of -- Early works to 1800",
     image: "https://www.gutenberg.org/cache/epub/1726/pg1726.cover.medium.jpg",
-    text: "undefined",
+    text: "https://www.gutenberg.org/files/1726/1726-h/1726-h.htm",
     createdAt: new Date(),
     updatedAt: new Date()
 },

@@ -12,8 +12,15 @@ async function getBooks() {
         for (const subject of subjects) {
             subjectsString += `${subject}, `
         }
+        let formats = Object.keys(book.formats)
+        let formatText = ''
+        for (const format of formats) {
+            if (format.startsWith('text/html')) {
+                formatText = format
+            }
+        }
         let trimmedSubjects = subjectsString.slice(0, -2)
-        bookJSON += `{\n    title: "${book.title}",\n    author: "${book.authors[0].name}",\n    subjects: "${trimmedSubjects}",\n    image: "${book.formats['image/jpeg']}",\n    text: "${book.formats['text/html; charset=utf-8']}",\n    createdAt: new Date(),\n    updatedAt: new Date()\n},\n`
+        bookJSON += `{\n    title: "${book.title}",\n    author: "${book.authors[0].name}",\n    subjects: "${trimmedSubjects}",\n    image: "${book.formats['image/jpeg']}",\n    text: "${book.formats[formatText]}",\n    createdAt: new Date(),\n    updatedAt: new Date()\n},\n`
     }
     const trimmedObjects = bookJSON.slice(0, -2)
     const arrayWrapped = `[${trimmedObjects}]`
