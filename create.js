@@ -13,7 +13,7 @@ async function getBooks() {
             subjectsString += `${subject}, `
         }
         let trimmedSubjects = subjectsString.slice(0, -2)
-        bookJSON += `{\n    title: "${book.title}",\n    author: "${book.authors[0].name}",\n    subjects: "${trimmedSubjects}",\n    image: "${book.formats['image/jpeg']}",\n    createdAt: new Date(),\n    updatedAt: new Date()\n},\n`
+        bookJSON += `{\n    title: "${book.title}",\n    author: "${book.authors[0].name}",\n    subjects: "${trimmedSubjects}",\n    image: "${book.formats['image/jpeg']}",\n    text: "${book.formats['text/html; charset=utf-8']}",\n    createdAt: new Date(),\n    updatedAt: new Date()\n},\n`
     }
     const trimmedObjects = bookJSON.slice(0, -2)
     const arrayWrapped = `[${trimmedObjects}]`
