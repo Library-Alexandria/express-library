@@ -8,12 +8,12 @@ const url = 'http://gutendex.com/books?languages=en&copyright=false&author_year_
 async function getBooks() {
     const books = await axios.get(url)
     let bookJSON = ''
-    for (let i = 0; i < books.data.results.length; i++) {
-        bookJSON += `{\n    "title": "${books.data.results[i].title}"\n},\n`
+    for (const book of books.data.results) {
+        bookJSON += `{\n    title: "${book.title}",\n    author: "${book.authors[0].name}",\n    createdAt: new Date(),\n    updatedAt: new Date()\n},\n`
     }
     const trimmedObjects = bookJSON.slice(0, -2)
     const arrayWrapped = `[${trimmedObjects}]`
-    fs.writeFile('seeder.json', arrayWrapped, (err) => {
+    fs.writeFile('seeder.js', arrayWrapped, (err) => {
         if (err) {
             console.log(err)
         }
