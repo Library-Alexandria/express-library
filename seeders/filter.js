@@ -1,5 +1,5 @@
 const fs = require('fs')
-const books = require('./seeder')
+const books = require('./data')
 
 books.sort((first, second) => {
     if (first.title < second.title) {
@@ -25,7 +25,7 @@ const trimmedObjects = stringBooks.slice(0, -2)
 
 const arrayWrapped = `'use strict'\n\n module.exports = {\n    up: async (queryInterface, Sequelize) => {\n        return queryInterface.bulkInsert('features', [\n${trimmedObjects}\n        ], {})\n    }\n}`
 
-fs.writeFile('filtered.js', arrayWrapped, (err) => {
+fs.writeFile('seeders/books.js', arrayWrapped, (err) => {
     if (err) {
         console.log(err)
     }

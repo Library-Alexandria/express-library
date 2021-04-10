@@ -109,7 +109,7 @@ async function getBooks() {
     }
     const trimmedObjects = bookJSON.slice(0, -2)
     const arrayWrapped = `const books = [${trimmedObjects}]\n\nmodule.exports = books`
-    fs.writeFile('seeder.js', arrayWrapped, (err) => {
+    fs.writeFile('seeders/data.js', arrayWrapped, (err) => {
         if (err) {
             console.log(err)
         }
