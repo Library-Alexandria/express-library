@@ -11,12 +11,15 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      models.favorite.hasMany(models.book)
-      models.favorite.belongsToMany(models.user, {through: "user_id"})
+      models.Favorite.hasMany(models.Book)
+      models.Favorite.belongsToMany(models.User, {through: "user_id"})
     }
   };
   Favorite.init({
-    id: DataTypes.INTEGER,
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true
+    },
     book_id: DataTypes.INTEGER,
     user_id: DataTypes.INTEGER
   }, {

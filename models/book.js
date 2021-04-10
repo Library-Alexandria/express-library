@@ -11,11 +11,17 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      models.books.belongsToMany(models.favorites, {through: "book_id"})
+      models.Book.belongsToMany(models.favorites, {
+        through: "book_id",
+        foreignKey: "user_id"
+      })
     }
   };
   Book.init({
-    book_id: DataTypes.INTEGER,
+    id:{
+      type: DataTypes.INTEGER,
+      primaryKey: true
+    },
     title: DataTypes.STRING,
     author: DataTypes.STRING,
     date: DataTypes.DATEONLY,
