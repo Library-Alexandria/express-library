@@ -1,4 +1,4 @@
-[{
+const books = [{
     title: "The Republic",
     author: "Plato",
     subjects: "Classical literature, Justice -- Early works to 1800, Political science -- Early works to 1800, Utopias -- Early works to 1800",
@@ -1555,3 +1555,5 @@
     createdAt: new Date(),
     updatedAt: new Date()
 }]
+
+module.exports = books

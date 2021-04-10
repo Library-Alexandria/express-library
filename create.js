@@ -108,7 +108,7 @@ async function getBooks() {
         bookJSON += `{\n    title: "${book.title.replace(/"/g, '')}",\n    author: "${book.authors[0].name}",\n    subjects: "${trimmedSubjects}",\n    image: "${book.formats['image/jpeg']}",\n    text: "${book.formats[formatText]}",\n    createdAt: new Date(),\n    updatedAt: new Date()\n},\n`
     }
     const trimmedObjects = bookJSON.slice(0, -2)
-    const arrayWrapped = `[${trimmedObjects}]`
+    const arrayWrapped = `const books = [${trimmedObjects}]\n\nmodule.exports = books`
     fs.writeFile('seeder.js', arrayWrapped, (err) => {
         if (err) {
             console.log(err)
