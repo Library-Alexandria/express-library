@@ -8,22 +8,13 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      id: {
-        type: Sequelize.INTEGER
-      },
       title: {
         type: Sequelize.STRING
       },
       author: {
         type: Sequelize.STRING
       },
-      date: {
-        type: Sequelize.DATEONLY
-      },
       subjects: {
-        type: Sequelize.TEXT
-      },
-      description: {
         type: Sequelize.TEXT
       },
       image: {
