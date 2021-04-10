@@ -2,7 +2,7 @@
 
  module.exports = {
     up: async (queryInterface, Sequelize) => {
-        return queryInterface.bulkInsert('features', [
+        return queryInterface.bulkInsert('books', [
             {
                 title: "Academica",
                 author: "Cicero, Marcus Tullius",
