@@ -9,7 +9,7 @@ router.get("/:author", async (req, res) => {
             author: req.params.author
         }
     }).then((books) => {
-        res.send(books)
+        res.status(200).json(books)
         console.log(books)
     }).catch((err) => res.send(err))
 
