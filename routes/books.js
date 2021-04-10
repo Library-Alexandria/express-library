@@ -4,7 +4,7 @@ const db = require("../models");
 const user = require("../models/user");
 
 router.post("/post", async(req, res) => {
-    const book = await user.create({ 
+    const book = await User.create({ 
         id:1,
         name:"Necronomicon",
         author:"???",
