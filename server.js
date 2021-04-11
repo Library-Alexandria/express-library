@@ -1,6 +1,5 @@
 const express = require('express')
 const app = express()
-const port = 3000
 
 //test home route
 app.get('/', (req, res) => {
@@ -15,7 +14,10 @@ app.use('/users', require('./routes/users'))
 app.use('/books', require('./routes/books'))
 app.use('/favorites', require('./routes/favorites'))
 
-//port listener
-app.listen(port, () => {
-    console.log('server up and running!')
+// Create port
+const PORT = process.env.PORT || 8000
+
+// Create server to listen on port
+const server = app.listen(PORT, () => {
+    console.log(`Listening on PORT ${PORT}`)
 })

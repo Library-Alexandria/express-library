@@ -1,21 +1,15 @@
 {
   "development": {
-    "username": "corey",
-    "password": "corey",
     "database": "library_of_alexandria",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "corey",
-    "password": "corey",
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "corey",
-    "password": "corey",
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "postgres"
