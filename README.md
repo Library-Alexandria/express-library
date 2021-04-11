@@ -1,5 +1,5 @@
 # Library of Alexandria Backend
-Backend repository for the Library of Alexandria
+Backend repository for the Library of Alexandria.
 
 ## Models
 
