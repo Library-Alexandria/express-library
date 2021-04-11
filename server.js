@@ -1,13 +1,13 @@
 const express = require('express')
 const app = express()
-
-//test home route
-app.get('/', (req, res) => {
-    res.send('Test hello')
-})
+const cors = require('cors')
+const morgan = require('morgan')
 
 //middleware
-app.use(express.urlencoded({ extended: false }));
+app.use(cors())
+app.use(express.urlencoded({extended: false}))
+app.use(express.json())
+app.use(morgan('dev'))
 
 //controllers
 app.use('/users', require('./routes/users'))
