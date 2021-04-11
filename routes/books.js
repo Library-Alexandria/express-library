@@ -1,24 +1,31 @@
-const express = require("express");
-const router = express.Router();
-const models = require("../models");
-// const user = require("../models/user");
+const express = require("express")
+const router = express.Router()
+const models = require("../models")
+const axios = require('axios')
 
-//get route for books:id
-
-router.get("/:author", async (req, res) => {
-    
-    models.book.findAll({
-        where: {
-            author: req.params.author
-        }
-    }).then((found_books) => {
-        res.status(200).json(found_books)
-        // console.log(found_books)
-    }).catch((err) => res.status(400).json({error: err}))
-
+router.get("/search/:author", async (req, res) => {
+    try {
+        const foundBooks = await models.book.findAll({
+            where: {
+                author: req.params.author
+            }
+        })
+        res.status(200).json({ books: foundBooks })
+    } catch (error) {
+        res.status(400).json({ msg: error })
+    }
 })
 
+router.get("/text/:id", async (req, res) => {
+    try {
+        const foundBook = await models.book.findByPk(
+            req.params.id
+        )
+        const foundText = await axios.get(foundBook.text)
+        res.status(200).json({ text: foundText.data })
+    } catch (error) {
+        res.status(400).json({ msg: error })
+    }
+})
 
-//get route for books:query
-
-module.exports = router;
+module.exports = router
