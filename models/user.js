@@ -18,10 +18,6 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   user.init({
-    id: {
-      type: DataTypes.INTEGER,
-      primaryKey: true
-    },
     name: DataTypes.STRING,
     city: DataTypes.STRING,
     address: DataTypes.STRING,
