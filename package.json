@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "Backend repo",
     "main": "server.js",
+    "engines": {
+        "node": "15.x"
+    },
     "scripts": {
         "start": "node server.js"
     },
