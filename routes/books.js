@@ -1,9 +1,9 @@
 const express = require("express")
 const router = express.Router()
 const models = require("../models")
+const axios = require('axios')
 
-//get route for books:id
-router.get("/:author", async (req, res) => {
+router.get("/search/:author", async (req, res) => {
     try {
         const foundBooks = await models.book.findAll({
             where: {
@@ -14,8 +14,18 @@ router.get("/:author", async (req, res) => {
     } catch (error) {
         res.status(400).json({ msg: error })
     }
-
 })
 
-//get route for books:query
+router.get("/text/:id", async (req, res) => {
+    try {
+        const foundBook = await models.book.findByPk(
+            req.params.id
+        )
+        const foundText = await axios.get(foundBook.text)
+        res.status(200).json({ text: foundText.data })
+    } catch (error) {
+        res.status(400).json({ msg: error })
+    }
+})
+
 module.exports = router
